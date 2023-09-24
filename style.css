@@ -1,0 +1,27 @@
+body{
+    background-size:cover;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.heading{
+    font-size: 35px;
+    width:100%;
+    margin:0px;
+}
+#start, #number_of_objects, #start{
+    font-size: 25px;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    text-align: center;
+    background-image: linear-gradient(rgba(1, 1, 170, 0.499), rgba(43, 236, 43, 0.416), rgba(70, 113, 21, 0.579));
+    width:100%;
+    line-height: 3;
+    color: beige;
+}
+canvas{
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    box-shadow: 7.5px 7.5px 9px rgba(255, 255, 0, 0.543);
+    margin-top: 75px;
+}
